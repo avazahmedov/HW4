@@ -44,3 +44,29 @@
 // Напишите программу, которая задаёт массив из произвольного кол-ва 
 // элементов и выводит их на экран.
 
+// int[] Array(int a)
+// {
+//     int[] arr = new int [a];
+//     int index = 0;
+//         while (index<a)
+//         {
+//             Console.WriteLine("Enter an array element");
+//             arr[index] = Convert.ToInt32(Console.ReadLine());
+//             index++;
+//         }
+//         return arr;
+// }
+
+// void ShowArray(int[] arr)
+// {
+//     int index = 0;
+//     while (index<arr.Length)
+//     {
+//         Console.Write($"{arr[index]} ");
+//         index++;
+//     }
+// }
+
+// Console.WriteLine("Enter length of array");
+// int a = Convert.ToInt32(Console.ReadLine());
+// ShowArray(Array(a));
